@@ -1,0 +1,21 @@
+{
+    "name": "metallic-ratio-design",
+    "version": "0.0.1",
+    "description": "Metallic ratio design",
+    "keywords": [
+        "layout",
+        "css",
+        "sass"
+    ],
+    "author": {
+        "name": "Edmond Nkinzo",
+        "url": "http://nanke.info"
+    },
+    "license": "SEE LICENSE IN LICENSE",
+    "dependencies": {},
+    "devDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/nanke/metallic-ratio-design"
+    }
+}
