@@ -36,6 +36,36 @@ The Metallic means are
 For n the mean is :	
 `0.5 * (n + (4 + n ^ 2) ^ 0.5)`
 
+## Fractions
+```
+                            abg
+                 +----------------+
+   bg                   ab
++---------+        +-------------+
+           b                a
+          +------+          +----+
+   n-1bg
+ +-----------------+      gutter
+       n-1b               +-+
+ +---------------+
+ +-------------------------------+
+ |      |-|      |-|      |-|    |
+ |      |-|      |-|      |-|    |
+ |      |-|      |-|      |-|    |
+ |      |-|      |-|      |-|    |
+ |      |-|      |-|      |-|    |
+ |      |-|      |-|      |-|    |
+ +-------------------------------+
+           nb
+ +------------------------+
+                        an-1bg
+        +------------------------+
+                an-1b
+            +--------------------+
+ +--------------------------+
+           nbg
+```
+
 # Usage
 
 ## Components
@@ -74,17 +104,13 @@ The most specific format contains the following details:
     * ag : "little" component plus one gutter
     * ab : "little" and **one** "medium" component with gutter in between
     * abg : "little" and **one** "medium" component with gutter in between plus one extra gutter
-    * ab2g : "little" and **one** "medium" component with gutter in between plus two gutters
     * an-1b : "little" and **all but one** "medium" component with gutter in between
-    * an-1bg : "little" and **all but one** "medium" component with gutter in between plus one gutter
-    * an-1b2g : *all but one** "medium" component
-    * anb: **all but two** gutters
-    * anbg: **all but one** gutter
+    * an-1bg : **all but one** "medium" component
     * b : "medium" component
     * bg : "medium" component plus one gutter
     * nb : **all** "medium" component with gutter in between
-    * nbg : **all** "medium" component with gutter in between plus one extra gutter
-    * nb2g : **all but** "little" component
+    * nbg : **all but** "little" component
+    * gutter
 
 
 ## Equivalent styles
