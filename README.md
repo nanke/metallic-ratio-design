@@ -49,7 +49,7 @@ Here an example, using the bronze ratio.
  +-------------------------------+
  |      |G|      |G|      |G|    |
  |      |U|      |U|      |U|    |
- |   B  |T|  B   |T| B    |T| C  |
+ |   B  |T|  B   |T| B    |T| A  |
  |      |T|      |T|      |T|    |
  |      |E|      |E|      |E|    |
  |      |R|      |R|      |R|    |
