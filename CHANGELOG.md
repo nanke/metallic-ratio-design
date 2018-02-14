@@ -15,7 +15,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Added
 * Added package.json
 * Added CHANGELOG
-* 
+* Added README
+* Added gitgnore
 
 ## Version 0.0.0 - 2018-02-13
 ### Added
